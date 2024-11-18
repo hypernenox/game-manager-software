@@ -6,7 +6,7 @@ My SQL commands for the Game Manager Software (in MySQL Command Line Client)
 
 3 - create table player( igid int, dcid varchar(40), name varchar(40), doj Date, primary key (igid));
 
-4 - create table staff( sigid int, sdcid varchar(40), sname varchar(40), sdoj Date, primary key (sigid));
+4 - create table staff( sigid int, sdcid varchar(40), sname varchar(40), sdoj Date,spost varchar(40), primary key (sigid));
 
 5 - create table events( eno int, ename varchar(40), edate Date, result varchar(10), primary key (eno));
 
